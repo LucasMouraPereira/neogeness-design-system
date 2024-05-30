@@ -1,6 +1,10 @@
 {
   "name": "neo-geness",
   "version": "0.0.1",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "version": "turbo version",
     "publish": "turbo publish",
