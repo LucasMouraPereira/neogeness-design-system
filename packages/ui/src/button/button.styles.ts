@@ -1,6 +1,9 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
-export const Button = styled.button`
-  background: red;
-  color: #fff;
+export const StyledButton = styled.button`
+  ${({ theme }) => css`
+    background: ${theme.colors.maxSoft};
+    color: ${theme.colors.maxHard};
+    border: 1px solid ${theme.colors.soft};
+  `}
 `
