@@ -1,6 +1,8 @@
 {
   "extends": "@repo/typescript-config/react-library.json",
   "compilerOptions": {
+    "jsx": "react",
+    "jsxFactory": "React.createElement",
     "outDir": "dist"
   },
   "include": ["src"],
